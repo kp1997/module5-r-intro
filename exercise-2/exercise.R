@@ -26,4 +26,4 @@ too.expensive <- total.cost.tip > price.limit
 
 # Create a variable `max.friends`, which is the maximum number of friends you can invite that is in range
 # of your price limit
-5
+max.friends <- round(price.limit/(meal.price * 1.15), 0)
